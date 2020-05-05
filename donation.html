@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/slicknav.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./untitled folder/donate.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
   </head>
 
@@ -115,8 +116,7 @@
                           <li>
                             <a href="emergencyappeal.html">Emergency Appeals</a>
                           </li>
-                          <li><a href="campaign.html">Campaign</a></li>
-                          <li><a href="volunteers.html">Volunteers</a></li>
+                       
                         </ul>
                       </li>
                       <li>
@@ -767,7 +767,7 @@
     
       </div>
 
-      <div class="card">
+      <div class="card mb-5">
     
         <!-- Card header -->
         <div class="card-header" role="tab" id="headingTwo2">
@@ -796,90 +796,75 @@
       </div>
     <!-- accordian end -->
 
-    <div data-scroll-index="1" class="make_donation_area section_padding">
+    <section class="donate-area relative section-gap pt-5 pb-5" id="donate">
+      <div class="overlay overlay-bg"></div>
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <div class="section_title text-center mb-55">
-              <h4><span>Make a Donation</span></h4>
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <form action="#" class="donation_form">
-              <div class="row align-items-center">
-                <div class="col-md-4">
-                  <div class="single_amount">
-                    <div class="input_field">
-                      <div class="input-group">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text" id="basic-addon1"
-                            >$</span
-                          >
-                        </div>
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="40,200"
-                          aria-label="Username"
-                          aria-describedby="basic-addon1"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-8">
-                  <div class="single_amount">
-                    <div
-                      class="fixed_donat d-flex align-items-center justify-content-between"
-                    >
-                      <div class="select_prise">
-                        <h4>Select Amount:</h4>
-                      </div>
-                      <div class="single_doonate">
-                        <input
-                          type="radio"
-                          id="blns_1"
-                          name="radio-group"
-                          checked
-                        />
-                        <label for="blns_1">10</label>
-                      </div>
-                      <div class="single_doonate">
-                        <input
-                          type="radio"
-                          id="blns_2"
-                          name="radio-group"
-                          checked
-                        />
-                        <label for="blns_2">30</label>
-                      </div>
-                      <div class="single_doonate">
-                        <input
-                          type="radio"
-                          id="Other"
-                          name="radio-group"
-                          checked
-                        />
-                        <label for="Other">Other</label>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <div class="row d-flex justify-content-end">
+              <div class="col-lg-6 col-sm-12 pb-80 header-text">
+                  <h1 class="text-white">Donate Now</h1>
+                  <p class="text-white">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore  et dolore magna aliqua.
+                  </p>
               </div>
-            </form>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="donate_now_btn text-center">
-              <a href="donation.html" class="boxed-btn4">Donate Now</a>
-            </div>
+          <div class="row d-flex justify-content-center">
+              <div class="col-lg-6 contact-left">
+                  <div class="single-info">
+                      <h4 class="text-white">Divided Evenly</h4>
+                      <p class="text-white">
+                          inappropriate behavior is often laughed off as “boys will be boys,” <br> women face higher conduct women face higher conduct.
+                      </p>
+                  </div>
+                  <div class="single-info">
+                      <h4 class="text-white">Transperancy All the Way</h4>
+                      <p class="text-white">
+                          inappropriate behavior is often laughed off as “boys will be boys,” <br> women face higher conduct women face higher conduct.
+                      </p>
+                  </div>
+                  <div class="single-info">
+                      <h4 class="text-white">Trustworthy</h4>
+                      <p class="text-white">
+                          inappropriate behavior is often laughed off as “boys will be boys,” <br> women face higher conduct women face higher conduct.
+                      </p>
+                  </div>
+              </div>
+              <div class="col-lg-6 contact-right">
+                  <form class="booking-form" id="myForm" action="donate.php">
+                           <div class="row">
+                               <div class="col-lg-12 d-flex flex-column pt-3 pb-3">
+                                   <select name="type" class="app-select form-control" required>
+                                      <option data-display="Project you want to donate"><span class="">Project you want to donate</span></option>
+                                      <option value="1">Donate type 1</option>
+                                      <option value="2">Donate type 2</option>
+                                      <option value="3">Donate type 3</option>
+                                  </select>
+                               </div>
+                               <div class="col-lg-6 d-flex flex-column pt-3 pb-3 text-white">
+                                <input name="fname" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="form-control mt-20" required="" type="text" required>
+                              </div>
+                              <div class="col-lg-6 d-flex flex-column pt-3 pb-3">
+                                  <input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="form-control mt-20" required="" type="email">
+                              </div>
+                              <div class="col-lg-12 d-flex flex-column pt-3 pb-3">
+                                  <input name="amound" placeholder="Donation amount (USD)" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Donation amount (USD)'" class="form-control mt-20" required="" type="text">
+
+                                  <textarea class="form-control mt-20" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
+                              </div>
+
+                              <div class="col-lg-12 d-flex justify-content-end send-btn">
+                                  <button class="btn btn-primary">Donate</button>
+                              </div>
+
+                              <div class="alert-msg"></div>
+                          </div>
+                    </form>
+                    <p class="payment-method">
+                        We Accept :   <img src="./img/payment.png" alt="">
+                    </p>
+              </div>
           </div>
-        </div>
       </div>
-    </div>
+  </section>
 
     <!-- footer_start  -->
     <footer class="footer">

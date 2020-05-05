@@ -1,0 +1,61 @@
+::placeholder {
+  color: white !important;
+}
+
+.donate-area {
+  background: url(../img/header-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.donate-area {
+  background-color: rgb(165, 168, 165);
+}
+.donate-area .overlay-bg {
+  opacity: 0.9;
+  background-color: #000;
+}
+.donate-area .header-text h1 {
+  color: #fff;
+  margin-bottom: 25px;
+}
+.donate-area .contact-left h4 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.donate-area .contact-left .single-info {
+  margin-bottom: 30px;
+}
+.donate-area .contact-right .form-control {
+  border-radius: 0;
+  background-color: transparent;
+  border: 1px solid rgb(61, 201, 146);
+  color: white;
+  font-size: 14px;
+  padding: 12px;
+}
+.donate-area .contact-right input,
+.donate-area .contact-right textarea {
+  font-size: 14px;
+  font-weight: 200;
+  color: white;
+}
+.donate-area .contact-right .option {
+  color: white;
+}
+.donate-area .contact-right .nice-select span {
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+}
+.donate-area .contact-right textarea {
+  height: 150px;
+}
+.donate-area .contact-right .list {
+  width: 100%;
+}
+.donate-area .contact-right .payment-method {
+  color: white;
+  margin-top: 30px;
+}
